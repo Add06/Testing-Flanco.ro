@@ -1,0 +1,20 @@
+FEATURE,TEST CASE,TEST DATA,TYPE OF TEST DATA,EXPECTED RESULT
+Sort,Sorting by Price,Low to High,VALID,Products are dispalyed from lowest to highest.
+,,High to Low,VALID,Product are dispalyed from highest to lowest.
+,Sorting by Name,From A-Z,VALID,Products are dispalyed by the name from A to Z.
+,,From Z-A,VALID,Products are dispalyed by the name from Z to A.
+Cart,Total price Validation,Add to the cart one or more products ,VALID,Total price is updated
+,,Delete one or more products from the cart,VALID,Total price is updated
+,Shopping cart,Add quantity 1 to the cart,VALID,Quantity one in added to the cart.
+,,Change quantity from 1 to 2,VALID,Change quantity from 1 to 2.
+,Checkout,From shopping cart customer can Checkout,VALID,The customer is redirected to the payment page.
+,No limit Quantity,Add quantity 1.000.000.000.001 to the cart,VALID,Quantity selected is added to the cart.
+,Different payment methods,Select Bank transfer,VALID,Customer can pay with the selected method.
+,,Select Cash on Delivery,VALID,Customer can pay with the selected method.
+,,Select Credit Card,VALID,Customer can pay with the selected method.
+,,By now Pay Later,VALID,Customer can pay with the selected method.
+,,Gift Cart,VALID,Customer can pay with the selected method.
+Function, Search,Search Hummer,Invalid,All humers products are displayed.
+,I forgot my password,Press Forgot my Possword,Invalid,Customer can choose a new password.
+Registration,Customer Registration,Make a new account,VALID,User is able to create a new account.
+,,Customer registration with already used mail,VALID,user can not use the same e-mail address.
